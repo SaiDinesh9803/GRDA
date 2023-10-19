@@ -42,7 +42,7 @@ opt.visdom_port = 2000
 
 opt.use_g_encode = True # False  # True
 if opt.use_g_encode:
-    opt.g_encode = read_pickle("derive_g_encode/g_encode_15.pkl")
+    opt.g_encode = read_pickle("GRDA/derive_g_encode/g_encode_15.pkl")
 
 opt.device = "cuda"
 opt.seed = 233  # 1# 101 # 1 # 233 # 1
