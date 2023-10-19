@@ -12,7 +12,7 @@ def write_pickle(data, name):
         pickle.dump(data, f)
 
 
-read_file = "499_pred_GDA_new.pkl"
+read_file = "GRDA/derive_g_encode/499_pred_GDA_new.pkl"
 # read_file = "499_pred.pkl"
 num_domain = 60
 
